@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shahzad Akbar - Web Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">Shahzad Akbar</div>
+        <div class="nav-toggle" id="navToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm Shahzad Akbar</h1>
+            <h2>Web Developer & Designer</h2>
+            <p>Creating beautiful and functional web experiences</p>
+            <a href="#contact" class="cta-button">Get in Touch</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="profile-image.jpg" alt="Shahzad Akbar">
+            </div>
+            <div class="about-text">
+                <p>I'm a passionate web developer with expertise in creating responsive and user-friendly websites. With a strong foundation in modern web technologies, I help businesses establish their online presence effectively.</p>
+                <div class="about-details">
+                    <p><strong>Experience:</strong> 3+ years</p>
+                    <p><strong>Location:</strong> Your City, Country</p>
+                    <p><strong>Email:</strong> shahzad@example.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="fab fa-html5"></i>
+                <h3>HTML5</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS3</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-js"></i>
+                <h3>JavaScript</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-react"></i>
+                <h3>React</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-node"></i>
+                <h3>Node.js</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-database"></i>
+                <h3>MongoDB</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>Recent Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="https://plus.unsplash.com/premium_photo-1683288295814-84a199da83d9?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8RSUyMGNvbW1lcmNlJTIwV2Vic2l0ZXxlbnwwfHwwfHx8MA%3D%3D" alt="Project 1">
+                <h3>E-commerce Website</h3>
+                <p>A full-stack e-commerce platform built with React and Node.js</p>
+                <div class="project-links">
+                    <a href="#" class="project-link">View Live</a>
+                    <a href="#" class="project-link">GitHub</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?q=80&w=1955&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Project 2">
+                <h3>Portfolio Website</h3>
+                <p>A responsive portfolio website using HTML, CSS, and JavaScript</p>
+                <div class="project-links">
+                    <a href="#" class="project-link">View Live</a>
+                    <a href="#" class="project-link">GitHub</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="https://plus.unsplash.com/premium_photo-1720192861580-74a5724012ad?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dGFzayUyMG1hbmFnZXIlMjBhcHB8ZW58MHx8MHx8fDA%3D" alt="Project 3">
+                <h3>Task Manager App</h3>
+                <p>A task management application with user authentication</p>
+                <div class="project-links">
+                    <a href="#" class="project-link">View Live</a>
+                    <a href="#" class="project-link">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Get in Touch</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>shahzad@example.com</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+91 91996 17022</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-location-dot"></i>
+                    <p>delhi, India</p>
+                </div>
+            </div>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p>&copy; 2024 Shahzad Akbar. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
